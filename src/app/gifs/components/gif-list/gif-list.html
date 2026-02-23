@@ -1,0 +1,7 @@
+<div class="columns-2 md:columns-4 gap-4">
+  @for (gif of gifs(); track $index) {
+    <div class="mb-4 break-inside-avoid">
+      <gif-list-item [imageUrl]="gif.url" />
+    </div>
+  }
+</div>

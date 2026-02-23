@@ -2,6 +2,33 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.1.2.
 
+## Environment Setup
+
+Before running this project, you need to configure your Giphy API key:
+
+### Quick Setup (First time only):
+
+```bash
+# Option 1: Run the setup script (recommended)
+bash setup-env.sh
+
+# Option 2: Manual setup
+cp src/environments/environment.development.example.ts src/environments/environment.development.ts
+```
+
+### Then:
+
+1. Open `src/environments/environment.development.ts`
+2. Replace `YOUR_API_KEY_HERE` with your actual Giphy API key
+3. Get your free API key from [Giphy Developers](https://developers.giphy.com/) /public
+
+Example:
+```typescript
+giphyApiKey: 'abc123xyz789...',  // Your actual API key
+```
+
+⚠️ **SECURITY NOTE:** The `src/environments/environment.development.ts` file is added to `.gitignore` and will NOT be committed to the repository for security reasons. Only the `.example.ts` file is tracked by git.
+
 ## Development server
 
 To start a local development server, run:

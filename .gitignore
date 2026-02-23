@@ -42,3 +42,14 @@ __screenshots__/
 # System files
 .DS_Store
 Thumbs.db
+
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+
+# Development environment file with API keys (DO NOT COMMIT!)
+# Only the .example.ts file should be committed
+src/environments/environment.development.ts
+!src/environments/environment.development.example.ts
+
