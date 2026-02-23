@@ -18,7 +18,7 @@ cp src/environments/environment.development.example.ts src/environments/environm
 
 ### Then:
 
-1. Open `src/environments/environment.development.ts`
+1. Open `src/environments/environment.example.development.ts`
 2. Replace `YOUR_API_KEY_HERE` with your actual Giphy API key
 3. Get your free API key from [Giphy Developers](https://developers.giphy.com/) /public
 
