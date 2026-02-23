@@ -27,8 +27,6 @@ Example:
 giphyApiKey: 'abc123xyz789...',  // Your actual API key
 ```
 
-⚠️ **SECURITY NOTE:** The `src/environments/environment.development.ts` file is added to `.gitignore` and will NOT be committed to the repository for security reasons. Only the `.example.ts` file is tracked by git.
-
 ## Development server
 
 To start a local development server, run:
